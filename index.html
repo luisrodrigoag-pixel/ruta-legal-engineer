@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruta Legal Engineer</title>
+<meta name="description" content="Ruta de certificaciones en IA legal para un perfil de legal engineer en México: proveedores, credenciales verificables, calendario, plan del AIGP y marco mexicano.">
+<meta name="author" content="Luis Rodrigo Aguilar">
+<meta name="theme-color" content="#F5F4EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111614" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ruta LE">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --paper:#F5F4EF;
+  --surface:#FFFFFF;
+  --surface-2:#EEEDE6;
+  --ink:#18211D;
+  --ink-2:#3B4842;
+  --muted:#697672;
+  --line:#DBD9CF;
+  --line-soft:#E8E6DE;
+  --verde:#14603C;
+  --verde-soft:#E3EDE6;
+  --pago:#8A5410;
+  --pago-soft:#F3EADC;
+  --cerrado:#7A7A72;
+  --cerrado-soft:#EAE9E3;
+  --alerta:#9C3B2A;
+  --shadow:0 1px 2px rgba(24,33,29,.05), 0 8px 24px -16px rgba(24,33,29,.28);
+  --radius:6px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111614;
+    --surface:#191F1C;
+    --surface-2:#212825;
+    --ink:#E9EBE6;
+    --ink-2:#C3CCC6;
+    --muted:#93A099;
+    --line:#2B332F;
+    --line-soft:#232A27;
+    --verde:#5BBE8B;
+    --verde-soft:#16302355;
+    --pago:#D9A55E;
+    --pago-soft:#2D251655;
+    --cerrado:#8E9691;
+    --cerrado-soft:#242A2755;
+    --alerta:#E08A76;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111614;
+  --surface:#191F1C;
+  --surface-2:#212825;
+  --ink:#E9EBE6;
+  --ink-2:#C3CCC6;
+  --muted:#93A099;
+  --line:#2B332F;
+  --line-soft:#232A27;
+  --verde:#5BBE8B;
+  --verde-soft:#16302355;
+  --pago:#D9A55E;
+  --pago-soft:#2D251655;
+  --cerrado:#8E9691;
+  --cerrado-soft:#242A2755;
+  --alerta:#E08A76;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size:15.5px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--verde);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--verde) 35%, transparent)}
+a:hover{border-bottom-color:var(--verde)}
+a:focus-visible, button:focus-visible, input:focus-visible{outline:2px solid var(--verde);outline-offset:2px;border-radius:3px}
+
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+
+/* ---------- header ---------- */
+header.top{
+  border-bottom:1px solid var(--line);
+  background:var(--surface);
+}
+.brandbar{display:flex;align-items:center;gap:12px;padding:18px 0 16px}
+.mark{
+  width:26px;height:26px;flex:0 0 26px;border-radius:3px;
+  background:var(--verde);
+  display:grid;place-items:center;
+  color:var(--surface);
+  font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:13px;line-height:1;
+}
+:root[data-theme="dark"] .mark, :root:not([data-theme="light"]) .mark{color:#111614}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .mark{color:#fff}}
+.brandbar .name{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.brandbar .date{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+
+.hero{padding:40px 0 44px}
+h1{
+  font-family:"Newsreader", Georgia, serif;
+  font-weight:500;
+  font-size:clamp(2.3rem, 5.2vw, 3.5rem);
+  line-height:1.06;
+  letter-spacing:-.015em;
+  margin:0 0 18px;
+  text-wrap:balance;
+  max-width:16ch;
+}
+.lede{font-size:1.08rem;color:var(--ink-2);max-width:62ch;margin:0}
+.lede em{font-family:"Newsreader",Georgia,serif;font-style:italic;font-size:1.06em}
+
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--line);
+  margin-top:36px;
+}
+.stat{padding:18px 20px 18px 0;border-right:1px solid var(--line-soft)}
+.stat:last-child{border-right:0}
+.stat .n{font-family:"Newsreader",Georgia,serif;font-size:2.1rem;line-height:1;font-variant-numeric:tabular-nums;display:block;margin-bottom:6px}
+.stat .l{font-size:.83rem;color:var(--muted);line-height:1.4;display:block}
+@media(max-width:720px){.stats{grid-template-columns:1fr 1fr}.stat{padding-right:14px}.stat:nth-child(2){border-right:0}}
+
+/* ---------- nav ---------- */
+nav.jump{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+nav.jump ul{display:flex;gap:0;list-style:none;margin:0;padding:0;overflow-x:auto}
+nav.jump a{
+  display:block;padding:11px 16px 10px;
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap;
+}
+nav.jump a:hover{color:var(--ink);border-bottom-color:var(--verde)}
+nav.jump li:first-child a{padding-left:0}
+
+/* ---------- sections ---------- */
+section{padding:52px 0 8px;scroll-margin-top:56px}
+.shead{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.shead h2{
+  font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:1.72rem;letter-spacing:-.01em;margin:0;
+}
+.shead .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-left:auto;white-space:nowrap}
+.shead{flex-wrap:wrap;row-gap:4px}
+.intro{color:var(--ink-2);max-width:66ch;margin:16px 0 24px}
+
+/* ---------- callout ---------- */
+.callout{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-left:3px solid var(--verde);
+  border-radius:var(--radius);
+  padding:20px 22px;
+  margin:24px 0;
+  box-shadow:var(--shadow);
+}
+.callout h3{margin:0 0 8px;font-family:"IBM Plex Sans",sans-serif;font-size:1rem;font-weight:600}
+.callout p{margin:0 0 10px;color:var(--ink-2);font-size:.95rem}
+.callout p:last-child{margin-bottom:0}
+.callout.warn{border-left-color:var(--pago)}
+
+/* ---------- filtros ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.chip{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.05em;
+  padding:6px 12px;border-radius:100px;border:1px solid var(--line);
+  background:var(--surface);color:var(--muted);cursor:pointer;
+  transition:background .14s, color .14s, border-color .14s;
+}
+.chip:hover{color:var(--ink);border-color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--verde);border-color:var(--verde);color:var(--paper)}
+:root[data-theme="dark"] .chip[aria-pressed="true"], :root:not([data-theme="light"]) .chip[aria-pressed="true"]{color:#111614}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .chip[aria-pressed="true"]{color:#fff}}
+
+/* ---------- vendor rows ---------- */
+.rows{border-top:1px solid var(--line)}
+.row{
+  display:grid;
+  grid-template-columns:minmax(148px,1.1fr) minmax(0,2.5fr) 118px 132px;
+  gap:18px;align-items:start;
+  padding:16px 0;border-bottom:1px solid var(--line-soft);
+}
+.row.hidden{display:none}
+.row .v-name{font-weight:600;font-size:1.02rem;line-height:1.3}
+.row .v-cat{display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px;font-weight:400}
+.row .v-desc{color:var(--ink-2);font-size:.92rem}
+.row .v-desc strong{font-weight:600;color:var(--ink)}
+.row .v-meta{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);line-height:1.5;overflow-wrap:anywhere}
+.row > div{min-width:0}
+.pill{
+  display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.06em;
+  text-transform:uppercase;padding:3px 8px;border-radius:3px;white-space:nowrap;font-weight:500;
+}
+.pill.si{background:var(--verde-soft);color:var(--verde)}
+.pill.parcial{background:var(--pago-soft);color:var(--pago)}
+.pill.no{background:var(--cerrado-soft);color:var(--cerrado)}
+@media(max-width:820px){
+  .row{grid-template-columns:1fr 1fr;gap:10px}
+  .row .v-desc{grid-column:1/-1;order:3}
+  .row .v-meta{order:4;grid-column:1/-1}
+  .row .v-badge{text-align:right}
+}
+
+/* ---------- tabla genérica ---------- */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:.92rem}
+th{
+  text-align:left;font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+  padding:12px 16px;border-bottom:1px solid var(--line);white-space:nowrap;
+}
+td{padding:13px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;color:var(--ink-2)}
+tr:last-child td{border-bottom:0}
+td strong{color:var(--ink);font-weight:600}
+td.num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
+
+/* ---------- plan ---------- */
+.plan{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.block{
+  display:grid;grid-template-columns:130px 1fr 130px;gap:22px;
+  padding:22px 0;border-bottom:1px solid var(--line-soft);
+}
+.block .when{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);line-height:1.5}
+.block .when b{display:block;color:var(--ink);font-size:13px;font-weight:600;letter-spacing:.03em;margin-bottom:3px}
+.block h3{margin:0 0 6px;font-size:1.05rem;font-weight:600}
+.block p{margin:0 0 12px;color:var(--ink-2);font-size:.93rem}
+.block .cost{font-family:"IBM Plex Mono",monospace;font-size:1.25rem;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.block .cost small{display:block;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+@media(max-width:760px){.block{grid-template-columns:1fr;gap:10px}.block .cost{text-align:left}}
+
+/* ---------- checklist ---------- */
+.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.check li{display:flex;gap:11px;align-items:flex-start;padding:8px 10px;border-radius:4px;transition:background .12s}
+.check li:hover{background:var(--surface-2)}
+.check input{margin:4px 0 0;accent-color:var(--verde);width:15px;height:15px;flex:0 0 15px;cursor:pointer}
+.check label{cursor:pointer;font-size:.93rem;color:var(--ink-2)}
+.check label b{color:var(--ink);font-weight:600}
+.check li.done label{color:var(--muted);text-decoration:line-through;text-decoration-color:color-mix(in srgb, var(--muted) 45%, transparent)}
+.progress{
+  display:flex;align-items:center;gap:12px;margin:0 0 18px;
+  font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);
+}
+.bar{flex:1;height:4px;background:var(--surface-2);border-radius:2px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--verde);width:0;transition:width .3s ease}
+.saved{font-size:11px;color:var(--muted);opacity:0;transition:opacity .3s}
+.saved.on{opacity:1}
+
+/* ---------- marca ---------- */
+.brandgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--line-soft);border:1px solid var(--line-soft)}
+.bcard{background:var(--paper);padding:20px}
+.bcard h3{margin:0 0 8px;font-size:.97rem;font-weight:600}
+.bcard p{margin:0;font-size:.9rem;color:var(--ink-2)}
+.bcard .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--verde);display:block;margin-bottom:9px}
+
+footer{margin-top:64px;border-top:1px solid var(--line);padding:26px 0 44px;color:var(--muted);font-size:.85rem}
+footer p{margin:0 0 8px;max-width:70ch}
+.srcs{font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:2}
+.srcs a{color:var(--muted);border-bottom-color:transparent}
+.srcs a:hover{color:var(--verde)}
+
+/* ---------- novedades ---------- */
+.news{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.news li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid var(--line-soft)}
+.news .d{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.news li > div{color:var(--ink-2);font-size:.93rem;min-width:0}
+.news b{color:var(--ink);font-weight:600}
+@media(max-width:560px){.news li{grid-template-columns:1fr;gap:4px}}
+
+/* ---------- marco mexicano ---------- */
+.sub{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:1.28rem;letter-spacing:-.005em;margin:34px 0 8px;text-wrap:balance}
+.body{color:var(--ink-2);max-width:66ch;margin:0 0 16px;font-size:.95rem}
+.deca{list-style:none;counter-reset:d;margin:0 0 8px;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;border-top:1px solid var(--line)}
+.deca li{counter-increment:d;display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;padding:11px 0;border-bottom:1px solid var(--line-soft);font-size:.93rem;color:var(--ink)}
+.deca li::before{content:counter(d,decimal-leading-zero);font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--verde);padding-top:3px}
+@media(max-width:720px){.deca{grid-template-columns:1fr}}
+.plain{margin:0 0 16px;padding-left:18px;color:var(--ink-2);font-size:.93rem;max-width:72ch}
+.plain li{margin-bottom:8px}
+.plain b{color:var(--ink);font-weight:600}
+.block .state{margin-top:8px}
+
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brandbar">
+      <div class="mark">LR</div>
+      <span class="name">Luis Rodrigo Aguilar &middot; Ruta personal</span>
+      <span class="date">Actualizado 8 nov 2026</span>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Qué se puede certificar en IA legal</h1>
+      <p class="lede">Revisión de los catorce proveedores de la lista de AI Brief más el circuito de credenciales independientes, con una sola pregunta de fondo: <em>cuáles emiten algo verificable, y cuáles solo venden acceso a su producto.</em> El resultado ordena una ruta de doce meses para consolidar el perfil de legal engineer.</p>
+      <div class="stats">
+        <div class="stat"><span class="n">4</span><span class="l">de 14 proveedores emiten una credencial verificable</span></div>
+        <div class="stat"><span class="n">2</span><span class="l">están abiertas sin ser cliente: Harvey y GC AI</span></div>
+        <div class="stat"><span class="n">1</span><span class="l">otorga créditos de educación continua (GC AI, MCLE California)</span></div>
+        <div class="stat"><span class="n">$1,135</span><span class="l">costo total de la ruta núcleo, en dólares, a ritmo de 2 a 3 horas por semana</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="jump">
+  <div class="wrap">
+    <ul>
+      <li><a href="#harvey">Tu punto de partida</a></li>
+      <li><a href="#novedades">Novedades</a></li>
+      <li><a href="#vendors">Los 14 proveedores</a></li>
+      <li><a href="#gratis">Lo gratuito</a></li>
+      <li><a href="#independientes">Independientes</a></li>
+      <li><a href="#espanol">En español</a></li>
+      <li><a href="#marco">Marco mexicano</a></li>
+      <li><a href="#plan">Calendario</a></li>
+      <li><a href="#aigp">Plan del AIGP</a></li>
+      <li><a href="#marca">Marca personal</a></li>
+      <li><a href="#seguimiento">Seguimiento</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="harvey">
+  <div class="shead"><h2>Tu punto de partida</h2><span class="tag">Verificado en Credly</span></div>
+  <p class="intro">Tu credencial se llama <strong>Level 1 Legal Engineer</strong>, emitida por Harvey, y acredita cuatro competencias: identificar riesgos de IA propios de lo jurídico, traducir el funcionamiento de LLMs y agentes a lenguaje accionable para equipos legales, mapear capacidades del producto a áreas de práctica, y aplicar métodos de facilitación y gestión del cambio para impulsar la adopción.</p>
+
+  <div class="callout">
+    <h3>Te falta una certificación de Harvey, y también es gratuita</h3>
+    <p>Harvey Academy tiene <strong>dos</strong> certificaciones en dos tracks distintos. La que tienes corresponde al track especializado. La otra es del track core: <strong>Level 1 Foundations</strong> — tres cursos (<em>AI for Legal Basics</em> 67 min, <em>AI Analysis for Legal Workflows</em> 60 min y el wrap-up de 5 min), aproximadamente tres horas, autoguiada, gratuita y abierta sin licencia de Harvey. Cierra el par y suma un segundo badge de Credly con menos de una tarde de trabajo.</p>
+    <p>Al 27 de octubre sigue sin existir un Level 2 público. Harvey ha dicho que podría sumar niveles sobre diseño de flujos, agentes, personalización e integraciones, sin comprometer fecha; conviene revisar el catálogo cada trimestre. <a href="https://academy.harvey.ai/page/certifications">academy.harvey.ai/page/certifications</a></p>
+  </div>
+</section>
+
+<section id="novedades">
+  <div class="shead"><h2>Qué cambió desde septiembre</h2><span class="tag">Revisión del 8 nov 2026</span></div>
+  <p class="intro">Revisamos otra vez las fuentes, la última vez el 8 de noviembre. La estructura de la ruta se sostiene; cambian algunos datos y aparecen opciones nuevas.</p>
+  <ul class="news">
+    <li><span class="d">Oct – nov</span><div><b>La IAPP lanza en enero de 2027 una certificación para profesionales legales.</b> Se llama AI Specialist, Legal (AISL) y está dirigida a abogados, paralegales y legal ops. La formación y el examen arrancan en enero; el precio y el número de preguntas aún no se publican. No sustituye al AIGP, pero conviene compararlas antes de pagar.</div></li>
+    <li><span class="d">Se suma</span><div><b>Clio Legal AI Emerging Certification.</b> Gratuita, unas dos horas en cuatro módulos, abierta a quien no es cliente y con certificado compartible. No da créditos CLE.</div></li>
+    <li><span class="d">Se suma</span><div><b>AI, Justice and Rule of Law, de UNESCO y la Universidad de Oxford.</b> Curso gratuito de unas 18 horas con certificado digital de Oxford. Hoy está en inglés; la versión en español se anunció para junio de 2026 y no encontramos confirmación de que ya esté abierta.</div></li>
+    <li><span class="d">Sep</span><div><b>El Ilustre y Nacional Colegio de Abogados de México se alió con el colegio de abogados de Madrid (ICAM).</b> Difundirá en México la guía de buenas prácticas de IA del ICAM y abrió un curso híbrido de 18 horas el 3 de octubre.</div></li>
+    <li><span class="d">Ajuste</span><div><b>GC AI cambió su catálogo.</b> Sumó la clase 105 (IA en Microsoft Word) y ajustó duraciones. Su página ya no dice en qué plataforma se emiten los certificados; confírmalo en la próxima clase.</div></li>
+    <li><span class="d">Ajuste</span><div><b>UNIR y UNAM.</b> UNIR extendió su 40% de descuento hasta el 16 de noviembre, el mismo día en que arranca el programa. El curso del IIJ de la UNAM ya se impartió entre abril y junio, sin segunda edición anunciada.</div></li>
+    <li><span class="d">Ago – oct</span><div><b>Harvey lanzó producto, no certificaciones.</b> Harvey II (18 de agosto) trae espacios por asunto donde los agentes trabajan con el contexto del expediente, memoria del estilo de cada abogado y Tenet, su primer modelo entrenado para razonamiento jurídico. Legal Work Orchestration (15 de octubre) organiza un asunto en fases y tareas, con revisión humana antes de avanzar. Ambos sirven como material de estudio sobre supervisión humana. La Academy sumó videos gratuitos sobre agentes, sin credencial. El «Level 2» de sus noticias es TX-RAMP, una certificación de seguridad en la nube del gobierno de Texas para la empresa, igual que la FedRAMP que anunció el 28 de octubre; ninguna es para abogados.</div></li>
+    <li><span class="d">Sin cambios</span><div>Harvey sigue sin Level 2, el AIGP mantiene $649 para socios y $799 para no socios, la versión en español del curso de UNESCO y Oxford sigue sin confirmarse y Bucerius todavía no abre las solicitudes de 2027, anunciadas para noviembre.</div></li>
+  </ul>
+</section>
+
+<section id="vendors">
+  <div class="shead"><h2>Los 14 proveedores</h2><span class="tag">Filtra la lista</span></div>
+  <p class="intro">Diez de los catorce no certifican nada: tienen centros de recursos, academias de producto para clientes, o programas académicos dirigidos a universidades. Eso no los hace inútiles —varios tienen material formativo de primer nivel y gratuito— pero conviene no confundir una biblioteca de contenidos con una credencial.</p>
+
+  <div class="filters" role="group" aria-label="Filtros">
+    <button class="chip" data-f="todos" aria-pressed="true">Todos (14)</button>
+    <button class="chip" data-f="credencial" aria-pressed="false">Con credencial (4)</button>
+    <button class="chip" data-f="abierto" aria-pressed="false">Abierto sin ser cliente (7)</button>
+    <button class="chip" data-f="sincred" aria-pressed="false">Sin credencial (10)</button>
+  </div>
+
+  <div class="rows" id="vendorRows">
+
+    <div class="row" data-tags="credencial abierto">
+      <div><span class="v-name">Harvey</span><span class="v-cat">Workspace de despacho</span></div>
+      <div class="v-desc"><strong>Harvey Academy.</strong> Dos certificaciones gratuitas y abiertas: <em>Level 1 Foundations</em> (3 cursos) y la <em>Legal Engineering Certification</em>, cuyo badge se titula "Level 1 Legal Engineer". Rutas adicionales de admin y de construcción de agentes.</div>
+      <div class="v-badge"><span class="pill si">Credly</span></div>
+      <div class="v-meta">Gratis<br>Sin licencia<br><a href="https://academy.harvey.ai/">academy.harvey.ai</a></div>
+    </div>
+
+    <div class="row" data-tags="credencial abierto">
+      <div><span class="v-name">GC AI</span><span class="v-cat">Asistente in-house</span></div>
+      <div class="v-desc"><strong>Clases numeradas de la 101 a la 202</strong>, en vivo, con Q&amp;A: introducción a la IA, IA en Word (la 105, nueva), playbooks, ética, rollout de IA legal, IA avanzada y agentes. Cuatro dan créditos MCLE de California. Es el catálogo más completo y estructurado de los catorce. En septiembre los certificados se emitían en Credsverse; su página ya no lo menciona.</div>
+      <div class="v-badge"><span class="pill si">Certificado</span></div>
+      <div class="v-meta">Gratis · MCLE CA<br>Sin licencia<br><a href="https://gc.ai/learn-ai">gc.ai/learn-ai</a></div>
+    </div>
+
+    <div class="row" data-tags="credencial">
+      <div><span class="v-name">Ironclad</span><span class="v-cat">Plataforma de contratos</span></div>
+      <div class="v-desc"><strong>Ironclad Academy.</strong> Siete o más badges "skills-verified" en Credly: Core Administration, Workflow Owner, Clickwrap, Sales Workflow, Procurement, Implementation Ready, Business Value. Los badges son gratuitos, pero <strong>la cuenta no lo es</strong>: exige ser cliente, prospecto o partner, y el acceso de prospecto requiere código de un contacto comercial.</div>
+      <div class="v-badge"><span class="pill parcial">Cerrado</span></div>
+      <div class="v-meta">Gratis con acceso<br>Requiere código<br><a href="https://academy.ironcladapp.com/">academy.ironcladapp.com</a></div>
+    </div>
+
+    <div class="row" data-tags="credencial">
+      <div><span class="v-name">Luminance</span><span class="v-cat">Revisión de portafolio</span></div>
+      <div class="v-desc"><strong>AI Certification Pathway.</strong> Tres niveles (Academic, Academic+, Partnership Academic) con examen de opción múltiple y certificado propio. Gratuito, pero <strong>canalizado vía universidad</strong>: The University of Law, King's College London, Vanderbilt, UC Law SF, Kent y otras.</div>
+      <div class="v-badge"><span class="pill parcial">Vía universidad</span></div>
+      <div class="v-meta">Gratis<br>Acceso institucional<br><a href="https://www.luminance.com/academic-program/">luminance.com</a></div>
+    </div>
+
+    <div class="row" data-tags="abierto sincred">
+      <div><span class="v-name">Wordsmith</span><span class="v-cat">Solicitudes legales</span></div>
+      <div class="v-desc"><strong>Legal AI Engineer Framework:</strong> tres tracks (operational, technical, leadership leverage) por cinco niveles cada uno, con herramientas de autoevaluación y una progresión estimada de dos meses por track. No emite credencial, pero es el mejor mapa de competencias publicado del rol. Suma la Wordsmith Academy con office hours en vivo.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis<br>Abierto<br><a href="https://legal-ai-engineer.wordsmith.ai/">legal-ai-engineer.wordsmith.ai</a></div>
+    </div>
+
+    <div class="row" data-tags="abierto sincred">
+      <div><span class="v-name">Avvoka</span><span class="v-cat">Automatización documental</span></div>
+      <div class="v-desc"><strong>Avvoka Academy.</strong> Tres cursos on-demand tipo "click-along" —Automation 101, redacción y negociación colaborativa, Advanced Automation— más sesiones en vivo con universidades europeas. Sin certificado publicado; vale preguntarlo por el formulario de interés.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis<br>Abierto<br><a href="https://academy.avvoka.com/">academy.avvoka.com</a></div>
+    </div>
+
+    <div class="row" data-tags="abierto sincred">
+      <div><span class="v-name">SimpleDocs</span><span class="v-cat">Redacción y revisión</span></div>
+      <div class="v-desc"><strong>SimpleAI Academy.</strong> Currículo en tres niveles —Start Here, Build Skills, Go Further— que cubre playbooks, memoria de IA, reglas, workflows multipaso y gobierno de playbooks. Público, sin login. Es formación de producto, pero la lógica de diseño de playbooks es transferible.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis<br>Abierto<br><a href="https://simpledocs.com/academy">simpledocs.com/academy</a></div>
+    </div>
+
+    <div class="row" data-tags="abierto sincred">
+      <div><span class="v-name">DeepJudge</span><span class="v-cat">Recuperación de conocimiento</span></div>
+      <div class="v-desc">Biblioteca <strong>Learn</strong> con la serie <em>Yannic Explains</em>, del cofundador y CTO: entrenamiento de LLMs, alucinaciones, context engineering, agentes, MCP frente a API. Es el material técnico más sólido de la lista para entender qué hay debajo de las herramientas.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis<br>Abierto<br><a href="https://www.deepjudge.ai/learn">deepjudge.ai/learn</a></div>
+    </div>
+
+    <div class="row" data-tags="abierto sincred">
+      <div><span class="v-name">DocJuris</span><span class="v-cat">Revisión de contratos</span></div>
+      <div class="v-desc">Guías largas de redlining, gestión de proveedores y negociación, biblioteca de playbooks, plantillas de Word descargables (amendment, playbook) y un agente gratuito que devuelve redline por correo, sin registro. Insumo directo para tus propios formatos.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis<br>Abierto<br><a href="https://www.docjuris.com/guides">docjuris.com/guides</a></div>
+    </div>
+
+    <div class="row" data-tags="sincred">
+      <div><span class="v-name">Spellbook</span><span class="v-cat">Redacción en Word</span></div>
+      <div class="v-desc"><strong>Academic Partner Program:</strong> licencias gratuitas hasta finales de 2026 para estudiantes y profesorado, con más de 50 facultades participantes. Hub público "Learn" con guías. Su programa de formación real (con Kennedys) es interno de ese despacho.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Gratis (académico)<br>Vía institución<br><a href="https://spellbook.com/academic">spellbook.com/academic</a></div>
+    </div>
+
+    <div class="row" data-tags="sincred">
+      <div><span class="v-name">Legora</span><span class="v-cat">Investigación y revisión</span></div>
+      <div class="v-desc"><strong>Legal AI Scholars Program</strong> para facultades de derecho (guías, videos y sesiones por caso de uso) y una colaboración con Hotshot que da formación en video y talleres a clientes sin costo adicional. No existe una "Legora Academy" certificadora.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Institucional o cliente<br><a href="https://legora.com/academic">legora.com/academic</a></div>
+    </div>
+
+    <div class="row" data-tags="sincred">
+      <div><span class="v-name">SpotDraft</span><span class="v-cat">Plataforma de contratos</span></div>
+      <div class="v-desc"><strong>Training Academy</strong> con alrededor de cien videos por módulo de producto, entregada por los CSM tras el onboarding. Sin certificación ni badges. Su contenido público de valor está en otro lado: el reporte anual de compensaciones para in-house y las encuestas de adopción de IA.</div>
+      <div class="v-badge"><span class="pill no">Solo clientes</span></div>
+      <div class="v-meta">Incluido con licencia<br><a href="https://training.spotdraft.com/">training.spotdraft.com</a></div>
+    </div>
+
+    <div class="row" data-tags="sincred">
+      <div><span class="v-name">LegalOn</span><span class="v-cat">Revisión con playbook</span></div>
+      <div class="v-desc">En el mercado global solo hay un resource hub con webinars y whitepapers. En Japón sí opera <strong>Legal Learning</strong>, un e-learning jurídico de más de 300 lecciones con tests de comprensión, pero es un producto B2B de pago y en japonés.</div>
+      <div class="v-badge"><span class="pill no">Sin credencial</span></div>
+      <div class="v-meta">Hub gratuito<br><a href="https://www.legalontech.com/resource-hub">legalontech.com</a></div>
+    </div>
+
+    <div class="row" data-tags="sincred">
+      <div><span class="v-name">DraftWise</span><span class="v-cat">Redacción desde precedente</span></div>
+      <div class="v-desc">Nada público. Solo un partner program con "product training" sin acreditación ni examen, accesible por solicitud y reunión comercial. El enablement de clientes existe, pero no está documentado como programa.</div>
+      <div class="v-badge"><span class="pill no">Sin programa</span></div>
+      <div class="v-meta">No aplica<br><a href="https://www.draftwise.com/partners">draftwise.com/partners</a></div>
+    </div>
+
+  </div>
+
+  <div class="callout warn">
+    <h3>Verifica siempre el emisor</h3>
+    <p>Fuera de Harvey e Ironclad, ninguno de los catorce emite badges de Credly. Circulan cursos de terceros no afiliados que se anuncian como "Ironclad CLM certification training", y cursos CLE de revisión de contratos con IA que parecen de un proveedor y no lo son. Antes de pagar, confirma que la credencial la emite el proveedor y no un intermediario.</p>
+  </div>
+</section>
+
+<section id="gratis">
+  <div class="shead"><h2>Lo gratuito y verificable</h2><span class="tag">Solo cuesta horas</span></div>
+  <p class="intro">Siete opciones sin costo, alcanzables desde México sin viajar ni negociar acceso. Las dos últimas se sumaron en octubre: la certificación de Clio y el curso de UNESCO con Oxford.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Credencial</th><th>Emisor y plataforma</th><th>Esfuerzo</th><th>Por qué importa</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Level 1 Foundations</strong></td>
+          <td>Harvey · Credly</td>
+          <td class="num">~3 h</td>
+          <td>Completa el par de Harvey Academy y refuerza el badge que ya tienes con la base de alfabetización en IA.</td>
+        </tr>
+        <tr>
+          <td><strong>GC AI 101 · 110 · 201</strong></td>
+          <td>GC AI · certificado por clase</td>
+          <td class="num">~3 h</td>
+          <td>Tres certificados, con 3.25 horas de MCLE de California. Cubre introducción a la IA, ética de IA legal y uso avanzado.</td>
+        </tr>
+        <tr>
+          <td><strong>GC AI 106 · 121 · 202</strong></td>
+          <td>GC AI · certificado por clase</td>
+          <td class="num">~3 h</td>
+          <td>Construcción de playbooks, rollout de IA legal y agentes; la 202 suma 1 hora de MCLE. Es literalmente el trabajo de un legal engineer.</td>
+        </tr>
+        <tr>
+          <td><strong>Airtable Builder</strong></td>
+          <td>Airtable · examen propio</td>
+          <td class="num">~4 h</td>
+          <td>Gratuita, examen de opción múltiple, vigencia dos años. Acredita automatización sin código, que es la mitad práctica del rol.</td>
+        </tr>
+        <tr>
+          <td><strong>Legal AI Engineer Framework</strong></td>
+          <td>Wordsmith · autoevaluación</td>
+          <td class="num">~2 h</td>
+          <td>No da badge, pero te ubica en una escala de 0 a 4 en tres dimensiones y te da el vocabulario para vender el rol a un cliente.</td>
+        </tr>
+        <tr>
+          <td><strong>Legal AI Emerging Certification</strong></td>
+          <td>Clio · certificado propio</td>
+          <td class="num">~2 h</td>
+          <td>Cuatro módulos en video: uso diario, ética y verificación (incluye una política básica de uso de IA), prompts para investigación y documentos, y un módulo sobre su producto. Abierta a quien no es cliente; no da créditos CLE.</td>
+        </tr>
+        <tr>
+          <td><strong>AI, Justice and Rule of Law</strong></td>
+          <td>UNESCO y Universidad de Oxford</td>
+          <td class="num">~18 h</td>
+          <td>Certificado digital de Oxford y una mirada de justicia y Estado de derecho que no da ningún proveedor. En inglés por ahora; la versión en español está anunciada.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="independientes">
+  <div class="shead"><h2>Credenciales independientes</h2><span class="tag">Sin proveedor de por medio</span></div>
+  <p class="intro">Las credenciales de proveedor acreditan que sabes usar un producto. Las independientes acreditan un dominio, envejecen mejor y son las que un cliente corporativo reconoce. La más alineada con tu perfil es la de gobernanza de IA.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Programa</th><th>Entidad</th><th>Costo USD</th><th>Formato</th><th>Lectura</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>AIGP</strong><br>AI Governance Professional</td>
+          <td>IAPP</td>
+          <td class="num">$799<br>+ $60 simulacro</td>
+          <td>100 preguntas, 2h45, remoto con OnVUE, en inglés</td>
+          <td><strong>La apuesta principal</strong>, y la corrección importante: <strong>no te hagas socio</strong>. La membresía de $295 más el examen de socio a $649 suma $944, más caro que los $799 de no socio, y la primera cuota de mantenimiento ya viene incluida en ese precio. Súmale el simulacro oficial de $60, que es el mejor dinero del plan. La IAPP lanza en enero de 2027 otra certificación, para profesionales legales (AISL); se explica en el plan del AIGP.</td>
+        </tr>
+        <tr>
+          <td><strong>Generative AI Leader</strong></td>
+          <td>Google Cloud</td>
+          <td class="num">$99</td>
+          <td>90 min, 50–60 preguntas, remoto</td>
+          <td><strong>Disponible en español</strong>, sin prerrequisitos, vigencia de tres años y material de estudio gratuito. La mejor relación costo-beneficio de toda la lista.</td>
+        </tr>
+        <tr>
+          <td><strong>LPP</strong><br>Legal Project Professional</td>
+          <td>IILPM</td>
+          <td class="num">$177<br>+ curso previo</td>
+          <td>21 h de formación previa, credencial con post-nominal</td>
+          <td>Tu condición de abogado ya satisface el requisito laboral. Post-nominal internacional barato y recertificación cada cinco años.</td>
+        </tr>
+        <tr>
+          <td><strong>CCM Associate</strong><br>Commercial Contract Management</td>
+          <td>WorldCC</td>
+          <td class="num">$780<br>+ membresía</td>
+          <td>Autoguiado en línea, examen de 45 preguntas, 80% para aprobar</td>
+          <td>Alineado al estándar ANSI de gestión contractual. Es la opción si decides que tu diferenciador es contratos, no IA.</td>
+        </tr>
+        <tr>
+          <td><strong>Certificaciones Claude</strong></td>
+          <td>Anthropic</td>
+          <td class="num">$99 – $175</td>
+          <td>120 min, proctorizado, solo en inglés</td>
+          <td><strong>Descartada, y esto te ahorró el gasto.</strong> El FAQ oficial confirma que son exclusivas del Claude Partner Network: el registro rechaza correos de Gmail, Outlook o iCloud. La única vía sería que Solestra entrara al programa de partners, que en su nivel de entrada implica comprometerse a certificar diez personas. Reconfirmado en octubre: siguen limitadas a partners y desde julio se presentan en Pearson VUE.</td>
+        </tr>
+        <tr>
+          <td><strong>Membresía individual</strong></td>
+          <td>CLOC</td>
+          <td class="num">$195 / año</td>
+          <td>Comunidad y benchmarks</td>
+          <td>La categoría "Legal Solutions Professional" incluye consultoría a funciones legales, así que aplicas. Ojo: <strong>la CLOC Academy es presencial en Estados Unidos</strong>, no hay versión en línea.</td>
+        </tr>
+        <tr>
+          <td><strong>LIT Certificate</strong><br>Legal Innovation &amp; Technology</td>
+          <td>Suffolk University</td>
+          <td class="num">Probablemente<br>inactivo</td>
+          <td>Seis cursos de diez semanas, 100% en línea, badge en Credly</td>
+          <td><strong>Trátalo como muerto.</strong> El sitio oficial del programa caducó y hoy aloja un blog de casinos; la última cohorte indexada es de otoño de 2023 y el catálogo está detrás de login. El badge de Credly sigue publicado, pero eso no significa que el programa siga abierto.</td>
+        </tr>
+        <tr>
+          <td><strong>AI, Legal Technology &amp; Operations</strong></td>
+          <td>Bucerius Law School</td>
+          <td class="num">EUR 2,500</td>
+          <td>Tres semanas presenciales en Hamburgo</td>
+          <td>Edición 2026 cerrada. La próxima es del 21 de junio al 9 de julio de 2027 y <strong>las solicitudes abren en noviembre de 2026</strong>, con 15% de descuento hasta el 15 de febrero.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout warn">
+    <h3>Dos advertencias que ahorran dinero</h3>
+    <p><strong>El CLE no te sirve como cumplimiento.</strong> México no tiene educación continua obligatoria para conservar la cédula, así que los créditos MCLE de California que dan las clases de GC AI valen como señal de calidad del contenido, no como requisito cubierto. No pagues de más por acreditación CLE.</p>
+    <p><strong>La membresía del IAPP no se paga sola con un solo examen.</strong> Socio: $295 + $649 = $944. No socio: $799, con la primera cuota de mantenimiento incluida. Solo conviene asociarse si vas a presentar una segunda credencial del IAPP o si vas a usar los webinars en vivo, que además valen créditos CPE gratuitos para conservar la certificación.</p>
+    <p><strong>Bucerius Legal Tech Essentials no es un programa académico.</strong> Es una serie de conferencias gratuitas por Zoom y su propio FAQ aclara que no otorga grado ni certificado. La última edición confirmada es de 2024.</p>
+  </div>
+</section>
+
+<section id="espanol">
+  <div class="shead"><h2>En español y desde México</h2><span class="tag">Verificar precios directamente</span></div>
+  <p class="intro">El circuito en español está creciendo, pero casi ninguno publica precio en su sitio. Tres de estos programas mencionan expresamente a Harvey y a Luminance en su temario, lo que dice más del mercado que de su profundidad técnica.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Programa</th><th>Institución</th><th>Formato</th><th>Nota</th></tr></thead>
+      <tbody>
+        <tr><td><strong>El Abogado del Futuro: Legaltech y la Transformación Digital del Derecho</strong></td><td>Universidad Austral (Argentina), vía Coursera</td><td>5 módulos, ~3 semanas</td><td>Acceso gratuito; certificado verificable con pago. Es la puerta de entrada en español, con calificación de 4.9 sobre más de 1,300 reseñas.</td></tr>
+        <tr><td><strong>Diplomatura en LegalTech Avanzado</strong></td><td>Universidad Austral</td><td>120 h, en línea asincrónico</td><td>Cuatro pilares: transformación de personas, IA generativa, gestión de proyectos y automatización, y protección de datos. Precio no publicado; consultar próxima cohorte.</td></tr>
+        <tr><td><strong>Programa Executive en IA para el Sector Jurídico</strong></td><td>UNIR México</td><td>24 ECTS, 5 meses, en línea</td><td>Inicia el 16 de noviembre de 2026, con clases en vivo entre semana y grabaciones. Entrega titulación conjunta UNIR + DKS: es título propio, no posgrado oficial. Precio no publicado. <strong>El sitio mexicano anuncia 40% de descuento hasta el 16 de noviembre.</strong></td></tr>
+        <tr><td><strong>Curso Universitario en Inteligencia Artificial y Derecho</strong></td><td>Centro de Estudios Garrigues (España)</td><td>8 semanas, 100% en línea</td><td>EUR 3,400, inicio octubre-noviembre 2026, admisión con entrevista. Certificación CAIP opcional vía ISMS Forum. Confirmar acceso desde México.</td></tr>
+        <tr><td><strong>Legal Tech: Legal Ops</strong> e <strong>Innovación de Servicios Legales</strong></td><td>Tec de Monterrey</td><td>Virtual</td><td>Las páginas de catálogo existen, pero ninguno de los dos aparece en la oferta vigente de educación continua y el buscador interno del Tec no los encuentra. Probablemente estén en pausa. Como referencia de precio, su Diplomado en Derecho Corporativo cuesta 85,000 pesos por 120 horas.</td></tr>
+        <tr><td><strong>Curso de Inteligencia Artificial Aplicada</strong></td><td>UNAM · Instituto de Investigaciones Jurídicas</td><td>30 h, virtual</td><td>La primera edición corrió del 7 de abril al 9 de junio de 2026 y costó 8,600 pesos. No hay segunda edición anunciada; se puede preguntar en educacioncontinua.iij@unam.mx.</td></tr>
+        <tr><td><strong>Curso de IA para abogados</strong></td><td>Ilustre y Nacional Colegio de Abogados de México</td><td>18 h, híbrido, sábados</td><td>Arrancó el 3 de octubre de 2026 con 40 lugares y la confidencialidad como eje. Sirve de referencia para la siguiente edición; informes en cursos@incam.org.</td></tr>
+        <tr><td><strong>Centro Público de Formación en IA</strong></td><td>Gobierno de México (ATDT)</td><td>5 meses, en línea</td><td>Gratuito, con cursos de Google Cloud, Microsoft, AWS, IBM y otros proveedores. Es formación técnica, no jurídica. La convocatoria 2026 cerró el 5 de julio; el sitio del programa es mexia.gob.mx.</td></tr>
+        <tr><td><strong>Generative AI Leader</strong></td><td>Google Cloud</td><td>Examen en español</td><td>Repetido aquí a propósito: es la única certificación técnica internacional de esta investigación que se presenta en español.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="marco">
+  <div class="shead"><h2>Marco mexicano</h2><span class="tag">Corte al 8 nov 2026</span></div>
+  <p class="intro">México no tiene ley de inteligencia artificial. Lo que existe se reparte en política pública sin fuerza obligatoria, reformas puntuales a leyes vigentes, criterios judiciales e iniciativas que siguen en comisiones. Ninguna certificación en inglés cubre esto, y es lo primero que te va a preguntar un cliente mexicano.</p>
+
+  <h3 class="sub">Principios de Chapultepec</h3>
+  <p class="body">La SECIHTI y la ATDT presentaron el 29 de enero de 2026 la Declaración de ética y buenas prácticas para el uso y desarrollo de la inteligencia artificial. Es el primer marco ético oficial del gobierno federal sobre IA y una guía no vinculante: dependencias, organismos autónomos y empresas pueden adoptarla de forma voluntaria. Los principios 2, 3 y 6 son los que más sirven para redactar la política de uso de IA de un despacho o de un cliente.</p>
+  <ol class="deca">
+    <li>La IA debe ampliar derechos, nunca reducirlos.</li>
+    <li>Toda decisión apoyada por IA debe tener responsables humanos, sustentada en marcos institucionales claros.</li>
+    <li>Si una decisión no puede explicarse, no debe automatizarse.</li>
+    <li>La IA se gobierna mejor cuando se decide en colectivo.</li>
+    <li>La IA sólo es valiosa si genera bienestar para las personas.</li>
+    <li>Antes de automatizar, hay que comprender a quién y qué afecta.</li>
+    <li>La tecnología estratégica debe responder a las necesidades del país.</li>
+    <li>El desarrollo de la IA requiere fortalecer la educación y el conocimiento en el país.</li>
+    <li>La IA no puede ser ajena a la diversidad cultural y lingüística del país.</li>
+    <li>Los datos son un bien público que deben cuidarse con responsabilidad.</li>
+  </ol>
+
+  <h3 class="sub">Plan Nacional de Inteligencia Artificial</h3>
+  <p class="body">Documento de política pública de la ATDT, fechado en abril de 2026, con tres pilares: un marco ético y legal sólido; capacidades, talento y software público; e infraestructura estratégica para la soberanía tecnológica. Propone expedir una ley federal de IA, sin fecha, regida por seis principios: transparencia y explicabilidad, licitud y uso ético, no discriminación, proporcionalidad, supervisión humana efectiva y corresponsabilidad entre quien desarrolla, distribuye y usa la IA. Anticipa autoridades de supervisión, certificación y protección de derechos que se definirán con la ley. No menciona al sector justicia.</p>
+
+  <h3 class="sub">Lo que ya es obligatorio</h3>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Norma</th><th>Qué exige</th><th>Vigencia</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Voz e imagen de artistas</strong><br>LFT art. 305 Bis; LFDA arts. 87, 102, 118 fr. VII y 121</td><td>Consentimiento expreso para usar la imagen o la voz, incluidos los resultados generados por IA; acuerdo previo y por escrito para clonarlas; el contrato laboral debe fijar condiciones y pago por su uso con IA. Los programas de IA se protegen como obra literaria.</td><td class="num">DOF 14 may 2026</td></tr>
+        <tr><td><strong>Datos personales</strong><br>LFPDPPP art. 26 fr. II</td><td>El titular puede oponerse al tratamiento automatizado que evalúa aspectos personales sin intervención humana y le produce efectos jurídicos o una afectación significativa. La autoridad ya no es el INAI sino la Secretaría Anticorrupción y Buen Gobierno.</td><td class="num">21 mar 2025</td></tr>
+        <tr><td><strong>Plataformas digitales</strong><br>LFT art. 291-J</td><td>Las reglas con que un algoritmo asigna tareas deben ser transparentes, claras y conocidas por los trabajadores, en una política escrita en lenguaje sencillo que forma parte del contrato.</td><td class="num">DOF 24 dic 2024</td></tr>
+        <tr><td><strong>Secreto profesional</strong><br>Ley Reglamentaria del art. 5o. constitucional, art. 36</td><td>No es una norma sobre IA, pero es la que más pesa al usarla: antes de cargar un expediente en una herramienta hay que saber dónde se procesa, quién lo ve y si el proveedor entrena con él.</td><td class="num">Vigente</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="sub">Criterios judiciales</h3>
+  <ul class="plain">
+    <li><b>Obras generadas por IA.</b> En el amparo directo 6/2025, la Segunda Sala de la Suprema Corte resolvió en 2025 que una obra generada exclusivamente por IA no puede registrarse ante el Indautor, porque sólo las personas físicas pueden ser autoras.</li>
+    <li><b>Uso de IA por juzgadores.</b> El Segundo Tribunal Colegiado en Materia Civil del Segundo Circuito integró jurisprudencia, publicada en enero de 2026 (registros 2031639 y 2031640). Valida usar IA para calcular la garantía en la suspensión del amparo y fija cuatro elementos mínimos: proporcionalidad, protección de datos, transparencia sobre el método y los datos usados, y supervisión humana de la decisión. Se dirige a jueces, pero es la mejor referencia sobre qué uso considera aceptable un tribunal mexicano.</li>
+  </ul>
+
+  <h3 class="sub">En trámite</h3>
+  <ul class="plain">
+    <li><b>Reforma al artículo 73</b> para que el Congreso pueda legislar sobre IA. Hay varias iniciativas, la más reciente en la Gaceta del 22 de septiembre de 2026, y ninguna tiene dictamen.</li>
+    <li><b>Ley General para Regular y Fomentar el Uso de la IA en México.</b> Anteproyecto de la comisión del Senado que preside Rolando Zapata Bello, con 223 artículos, una autoridad nacional de IA e infracciones leves, graves y gravísimas. No ha llegado al pleno, y compiten iniciativas de Morena y del PAN.</li>
+    <li><b>Contenido sexual sintético.</b> El 17 de febrero de 2026 Diputados aprobó sancionar en la Ley General de Acceso de las Mujeres a una Vida Libre de Violencias la creación y difusión sin consentimiento de material sexual generado con medios tecnológicos. Está en el Senado.</li>
+  </ul>
+  <p class="body">El objetivo declarado es tener ley general antes de que termine 2026; el periodo ordinario de sesiones cierra el 15 de diciembre.</p>
+
+  <div class="callout">
+    <h3>Ética profesional: las guías en español</h3>
+    <p>No hay una guía mexicana propia. La del colegio de abogados de Madrid (ICAM) es la que el Ilustre y Nacional Colegio de Abogados de México está difundiendo aquí. También hay guías del Colegio de Abogados de Chile (julio de 2026) y del colegio de abogados de Buenos Aires (CPACF). Como referencia comparada, la Opinión Formal 512 de la ABA (julio de 2024) ordena el tema en competencia, confidencialidad, comunicación con el cliente, supervisión y honorarios.</p>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="shead"><h2>El calendario</h2><span class="tag">Sep 2026 – Sep 2027 · 2 a 3 h por semana</span></div>
+  <p class="intro">Recalibrado el 27 de octubre con tu avance real; al 8 de noviembre sigue igual, así que para cerrar el bloque a tiempo hacen falta unas tres horas y media por semana. Del bloque gratuito está cerrada la clase 101 de GC AI y quedan nueve pendientes, contando la certificación de Clio que se sumó. El bloque se extiende al 13 de diciembre y lo demás se recorre: el examen del IAPP pasa de abril a junio de 2027. Es preferible una fecha honesta que un plan que se abandona.</p>
+
+  <div class="plan">
+    <div class="block">
+      <div class="when"><b>Bloque 1</b>9 sep – 13 dic<br>14 semanas · ~17 h restantes<div class="state"><span class="pill parcial">En curso · 1 de 10</span></div></div>
+      <div>
+        <h3>Agotar lo gratuito</h3>
+        <p>Level 1 Foundations de Harvey para cerrar el par. Las cinco clases de GC AI que faltan (106, 110, 121, 201 y 202), cada una con su certificado; son en vivo y con cupo, así que conviene apartar fechas primero. Airtable Builder, la certificación gratuita de Clio y la autoevaluación en el framework de Wordsmith para tener una línea base declarable.</p>
+      </div>
+      <div class="cost">$0<small>Solo horas</small></div>
+    </div>
+
+    <div class="block">
+      <div class="when"><b>Bloque 2</b>4 ene – 7 feb 2027<br>5 semanas · ~13 h</div>
+      <div>
+        <h3>Primer examen internacional</h3>
+        <p>Google Cloud Generative AI Leader. Se presenta en español, no tiene prerrequisitos, la ruta de estudio es gratuita y la vigencia es de tres años. Sirve de ensayo del formato proctorizado antes del examen que sí pesa.</p>
+      </div>
+      <div class="cost">$99<small>Examen</small></div>
+    </div>
+
+    <div class="block">
+      <div class="when"><b>Bloque 3</b>8 feb – 27 jun 2027<br>20 semanas · ~50 h</div>
+      <div>
+        <h3>El AIGP del IAPP</h3>
+        <p>La credencial que sostiene una oferta de servicios de gobernanza de IA. Veinte semanas siguiendo el temario oficial, con el simulacro en la semana dieciocho y el examen en la segunda quincena de junio. Antes de pagar, compáralo con la AISL, la nueva certificación de la IAPP para profesionales legales que sale en enero; el detalle está en la sección siguiente.</p>
+      </div>
+      <div class="cost">$859<small>$799 + $60</small></div>
+    </div>
+
+    <div class="block">
+      <div class="when"><b>Bloque 4</b>jul – sep 2027<br>~30 h</div>
+      <div>
+        <h3>Elegir el diferenciador</h3>
+        <p>Dos caminos excluyentes. Si el diferenciador es método y gestión: IILPM Legal Project Professional, con post-nominal internacional y tu condición de abogado ya cubre el requisito laboral. Si es contratos: WorldCC CCM Associate, alineado al estándar ANSI.</p>
+      </div>
+      <div class="cost">$177<small>o $780 la vía WorldCC</small></div>
+    </div>
+
+    <div class="block">
+      <div class="when"><b>En paralelo</b>nov 2026<br>Decisión</div>
+      <div>
+        <h3>La ventana de Bucerius</h3>
+        <p>No es un bloque de estudio sino una fecha que no se puede recuperar: las solicitudes para la edición del 21 de junio al 9 de julio de 2027 abren en noviembre de 2026, con 15% de descuento hasta el 15 de febrero. Si el respaldo académico va a ser en español, esta decisión simplemente se cierra en noviembre. Con el calendario recalibrado, el programa coincide con el cierre del AIGP; si eliges Bucerius, conviene presentar el examen antes del 21 de junio.</p>
+      </div>
+      <div class="cost">EUR 2,500<small>Opcional</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="aigp">
+  <div class="shead"><h2>Plan del AIGP</h2><span class="tag">20 semanas · temario oficial v2.1</span></div>
+  <p class="intro">El IAPP no publica porcentajes: publica rangos de preguntas por dominio. De ahí sale el reparto de semanas. Dos datos que cambian cómo se estudia: el examen es <strong>solo en inglés</strong> y razona desde el marco europeo, no desde la LFPDPPP; y más de la mitad de las preguntas están en los dos dominios menos jurídicos.</p>
+
+  <div class="callout warn">
+    <h3>La nueva certificación de la IAPP para abogados</h3>
+    <p>La IAPP lanza en enero de 2027 la certificación <strong>AI Specialist, Legal (AISL)</strong> para quienes trabajan en servicios legales: abogados, paralegales y legal ops. Su Body of Knowledge, todavía en borrador, tiene cuatro dominios: la IA en la profesión jurídica, su despliegue en flujos de trabajo legales, supervisión y monitoreo, y requisitos éticos, contractuales y regulatorios. El precio y el número de preguntas aún no se publican.</p>
+    <p>No cambia la apuesta de fondo. El AIGP acredita gobernanza de IA dentro de una empresa, que es lo que sostiene una oferta de servicios a clientes corporativos; la nueva acredita el uso de IA en el ejercicio profesional. En la revisión del 4 de enero ya debería haber precio y temario definitivo: compara las dos antes de pagar.</p>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Dominio</th><th>Preguntas</th><th>Semanas</th><th>Qué cubre</th></tr></thead>
+      <tbody>
+        <tr><td><strong>I. Fundamentos de la gobernanza de IA</strong></td><td class="num">16 – 20</td><td class="num">2 – 4</td><td>Tipos de IA y taxonomía de riesgos, los seis principios de IA responsable, roles de developer, provider, deployer y user, y políticas por etapa del ciclo de vida.</td></tr>
+        <tr><td><strong>II. Leyes, estándares y marcos</strong></td><td class="num">19 – 23</td><td class="num">5 – 9</td><td>Privacidad aplicada a IA desde el GDPR, propiedad intelectual y datos de entrenamiento, no discriminación, el AI Act europeo a fondo, el NIST AI RMF y las normas ISO 42001, 22989 y 42005. <strong>Tu zona de ventaja.</strong></td></tr>
+        <tr><td><strong>III. Gobernar el desarrollo</strong></td><td class="num">21 – 25</td><td class="num">10 – 13</td><td>Evaluación de impacto, matriz de riesgo, linaje y procedencia de datos, tipos de prueba, model cards, red teaming, incidentes y model drift.</td></tr>
+        <tr><td><strong>IV. Gobernar el despliegue y uso</strong></td><td class="num">21 – 25</td><td class="num">14 – 17</td><td>Tipos de modelo y opciones de despliegue (nube, on-premise, fine-tuning, RAG, arquitecturas agénticas), riesgos contractuales con proveedores, usos secundarios y controles de desactivación.</td></tr>
+        <tr><td><strong>Consolidación</strong></td><td class="num">—</td><td class="num">18 – 20</td><td>Simulacro oficial en condiciones reales, repaso dirigido solo a los dominios flojos, segundo simulacro y examen.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <h3>Lo que hay que descargar, y lo que no hay que comprar</h3>
+    <p>El <strong>Body of Knowledge v2.1</strong> es gratuito y sin registro, y es el documento central: trae el temario y el blueprint. La <strong>Study Guide</strong> se pide con un formulario, también gratis. El <strong>examen de práctica cuesta 60 dólares</strong> y es la única compra opcional que vale la pena.</p>
+    <p>No compres el training oficial de mil dólares salvo que al terminar la semana trece el Dominio III te siga resultando impenetrable. No compres las normas ISO: el temario pide entenderlas a nivel conceptual, no cláusula por cláusula. Y <strong>no existe un libro oficial del IAPP para el AIGP</strong> — el que circula es de Wiley con marca licenciada, no del instituto.</p>
+  </div>
+
+  <div class="callout warn">
+    <h3>La logística que descalifica gente el día del examen</h3>
+    <p>El proctoring remoto <strong>prohíbe VPN, redes corporativas y redes compartidas</strong>, y también monitores múltiples y audífonos. Se presenta desde equipo personal y red doméstica, con el System Test corrido antes en ese mismo equipo y esa misma red.</p>
+    <p>El nombre de tu perfil en el IAPP debe coincidir <strong>exactamente</strong> con tu identificación. Con dos apellidos esto falla seguido: usa pasaporte y captura el nombre tal cual aparece ahí, antes de agendar. Y pregunta a certification@iapp.org por la política de tiempo extendido para no nativos del inglés: se solicita antes de agendar, no después.</p>
+  </div>
+</section>
+
+<section id="marca">
+  <div class="shead"><h2>Convertirlo en marca personal</h2><span class="tag">LinkedIn y Solestra</span></div>
+  <p class="intro">Una credencial publicada como captura de pantalla no construye nada. Lo que sí construye es el criterio que la credencial te permite ejercer en público.</p>
+
+  <div class="brandgrid">
+    <div class="bcard">
+      <span class="k">El hallazgo es el post</span>
+      <h3>Diez de catorce no certifican nada</h3>
+      <p>Esta investigación es en sí misma contenido. Publicar el mapa —qué proveedor emite credencial verificable y cuál solo vende acceso— te posiciona como alguien que audita el mercado, no como alguien que lo consume.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Serie sostenible</span>
+      <h3>Un proveedor por semana</h3>
+      <p>Catorce semanas de contenido con estructura fija: qué resuelve, qué no, qué costaría en un despacho mexicano de veinte abogados. Nadie está haciendo esa lectura en español.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Producto de Solestra</span>
+      <h3>El framework como diagnóstico</h3>
+      <p>Los tres tracks por cinco niveles de Wordsmith se traducen sin fricción en un diagnóstico de madurez en IA para un cliente corporativo. Es un entregable vendible que sale de material público y gratuito.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Posicionamiento</span>
+      <h3>Auditor, no entusiasta</h3>
+      <p>El AIGP te deja decir algo que casi ningún abogado mexicano puede: que gobernar el uso de IA en una empresa es una materia con estándar, no una opinión. Ese es el ángulo hacia tu práctica independiente.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Higiene de perfil</span>
+      <h3>Badges donde se verifican</h3>
+      <p>Credly y Credsverse permiten agregar el badge al perfil con enlace de verificación. Un badge verificable vale más que tres capturas, y el de Harvey no expira.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Táctica</span>
+      <h3>La puerta de Ironclad</h3>
+      <p>La Academy de Ironclad exige código de acceso de un contacto comercial. Como consultor con clientes corporativos reales, calificas como prospecto: una conversación de descubrimiento abre siete badges de Credly gratuitos.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Punto de partida para otros</span>
+      <h3>La ruta en GitHub</h3>
+      <p>Publicar esta investigación como repositorio abierto, adaptada para otros abogados y con el marco mexicano, te vuelve referencia del tema en español. Cada actualización es un motivo para publicar.</p>
+    </div>
+    <div class="bcard">
+      <span class="k">Contenido local</span>
+      <h3>El marco mexicano explicado</h3>
+      <p>Los Principios de Chapultepec, la reforma de voz e imagen y los criterios de los tribunales sobre IA casi no tienen lectura práctica para abogados. Es un hueco que puedes ocupar con una serie corta.</p>
+    </div>
+  </div>
+</section>
+
+<section id="seguimiento">
+  <div class="shead"><h2>Seguimiento</h2><span class="tag">Se guarda al marcar</span></div>
+  <p class="intro">Marca lo que vayas cerrando. El avance se guarda en este dispositivo.</p>
+
+  <div class="progress">
+    <span id="pcount">0 de 25</span>
+    <span class="bar"><span id="pbar"></span></span>
+    <span class="saved" id="saved">Guardado</span>
+  </div>
+
+  <ul class="check" id="checklist">
+    <li><input type="checkbox" id="c0" checked disabled><label for="c0"><b>Level 1 Legal Engineer</b> — Harvey, Credly, ago 2026 · ya obtenida</label></li>
+    <li><input type="checkbox" id="c1"><label for="c1"><b>Level 1 Foundations</b> — Harvey Academy, 3 h, gratis</label></li>
+    <li><input type="checkbox" id="c2"><label for="c2"><b>GC AI 101</b> — Intro to AI for In-House Legal, 60 min, 1 h MCLE</label></li>
+    <li><input type="checkbox" id="c3"><label for="c3"><b>GC AI 110</b> — Legal AI Ethics for In-House Legal, 60 min, 1 h MCLE</label></li>
+    <li><input type="checkbox" id="c4"><label for="c4"><b>GC AI 201</b> — Advanced AI for In-House Legal, 75 min, 1.25 h MCLE</label></li>
+    <li><input type="checkbox" id="c5"><label for="c5"><b>GC AI 106</b> — Building Playbooks in GC AI, 60 min</label></li>
+    <li><input type="checkbox" id="c6"><label for="c6"><b>GC AI 121</b> — Rolling Out Legal AI The Right Way, 60 min</label></li>
+    <li><input type="checkbox" id="c7"><label for="c7"><b>GC AI 202</b> — Building with Agentic AI, 70 min, 1 h MCLE</label></li>
+    <li><input type="checkbox" id="c8"><label for="c8"><b>Airtable Builder Certification</b> — gratis, vigencia 2 años</label></li>
+    <li><input type="checkbox" id="c9"><label for="c9"><b>Autoevaluación Wordsmith</b> — ubicar nivel 0–4 en los tres tracks</label></li>
+    <li><input type="checkbox" id="c21"><label for="c21"><b>Clio Legal AI Emerging Certification</b> — gratis, ~2 h, abierta sin ser cliente</label></li>
+    <li><input type="checkbox" id="c22"><label for="c22"><b>AI, Justice and Rule of Law</b> — UNESCO y Oxford, gratis, ~18 h, opcional</label></li>
+    <li><input type="checkbox" id="c10"><label for="c10"><b>Google Cloud Generative AI Leader</b> — $99, examen en español</label></li>
+    <li><input type="checkbox" id="c11"><label for="c11"><b>IAPP AIGP</b> — $799 como no socio, OnVUE remoto</label></li>
+    <li><input type="checkbox" id="c12"><label for="c12"><b>Descargar el Body of Knowledge v2.1</b> del AIGP y pedir la Study Guide gratuita</label></li>
+    <li><input type="checkbox" id="c13"><label for="c13"><b>Escribir a certification@iapp.org</b> — confirmar idioma y pedir tiempo extendido</label></li>
+    <li><input type="checkbox" id="c23"><label for="c23"><b>Revisar la AISL de la IAPP</b> — sale en enero de 2027; comparar precio y temario con el AIGP antes de pagar</label></li>
+    <li><input type="checkbox" id="c14"><label for="c14"><b>Comprar el simulacro oficial del AIGP</b> — $60, al terminar el Dominio I</label></li>
+    <li><input type="checkbox" id="c15"><label for="c15"><b>Correr el System Test de OnVUE</b> — equipo personal y red doméstica, sin VPN</label></li>
+    <li><input type="checkbox" id="c16"><label for="c16"><b>Agendar el examen AIGP</b> — segunda quincena de junio de 2027</label></li>
+    <li><input type="checkbox" id="c17"><label for="c17"><b>Decisión bloque 4</b> — IILPM LPP o WorldCC CCM Associate</label></li>
+    <li><input type="checkbox" id="c18"><label for="c18"><b>Ventana Bucerius 2027</b> — solicitudes en nov 2026, descuento hasta el 15 feb</label></li>
+    <li><input type="checkbox" id="c19"><label for="c19"><b>UNIR México</b> — 40% de descuento hasta el 16 de noviembre, día en que inicia</label></li>
+    <li><input type="checkbox" id="c20"><label for="c20"><b>Abrir la puerta de Ironclad</b> — pedir código de acceso como prospecto</label></li>
+    <li><input type="checkbox" id="c24"><label for="c24"><b>Leer la guía de buenas prácticas de IA del ICAM</b> — la que el Colegio de Abogados de México difunde aquí</label></li>
+    <li><input type="checkbox" id="c25"><label for="c25"><b>Crear el repositorio ruta-legal-engineer</b> — versión abierta de esta ruta para otros abogados</label></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Investigación realizada el 9 de septiembre de 2026 y actualizada por última vez el 8 de noviembre de 2026 sobre fuentes primarias. El marco mexicano es informativo y no constituye asesoría; antes de citar un criterio o una norma en un escrito, cotéjalo con la fuente oficial. Los precios de programas universitarios en español no están publicados en sus sitios y deben confirmarse directamente. Los catálogos de certificación en esta categoría cambian rápido: conviene revisar Harvey Academy y GC AI cada trimestre.</p>
+  <p>Código y contenido en <a href="https://github.com/luisrodrigoag-pixel/ruta-legal-engineer">github.com/luisrodrigoag-pixel/ruta-legal-engineer</a>. Se puede instalar como app desde Safari o Chrome.</p>
+  <p class="srcs">
+    <a href="https://academy.harvey.ai/page/certifications">Harvey Academy</a> ·
+    <a href="https://help.harvey.ai/articles/harvey-academy">Harvey help center</a> ·
+    <a href="https://gc.ai/learn-ai">GC AI Learn</a> ·
+    <a href="https://academy.ironcladapp.com/">Ironclad Academy</a> ·
+    <a href="https://support.ironcladapp.com/hc/en-us/articles/16321752194839-Log-into-Ironclad-Academy">Acceso a Ironclad Academy</a> ·
+    <a href="https://www.luminance.com/academic-program/">Luminance Academic Program</a> ·
+    <a href="https://legal-ai-engineer.wordsmith.ai/">Wordsmith Legal AI Engineer</a> ·
+    <a href="https://academy.avvoka.com/">Avvoka Academy</a> ·
+    <a href="https://simpledocs.com/academy">SimpleAI Academy</a> ·
+    <a href="https://www.deepjudge.ai/learn">DeepJudge Learn</a> ·
+    <a href="https://www.docjuris.com/guides">DocJuris Guides</a> ·
+    <a href="https://spellbook.com/academic">Spellbook Academic</a> ·
+    <a href="https://legora.com/academic">Legora Academic</a> ·
+    <a href="https://training.spotdraft.com/">SpotDraft Training</a> ·
+    <a href="https://www.legalontech.com/resource-hub">LegalOn Resource Hub</a> ·
+    <a href="https://www.draftwise.com/partners">DraftWise Partners</a> ·
+    <a href="https://iapp.org/certify/aigp/">IAPP AIGP</a> ·
+    <a href="https://cloud.google.com/learn/certification/generative-ai-leader">Google Cloud GenAI Leader</a> ·
+    <a href="https://academy.airtable.com/page/airtable-certification">Airtable Certification</a> ·
+    <a href="https://www.iilpm.com/credentials/legal-project-practitioner/">IILPM LPP</a> ·
+    <a href="https://support.worldcc.com/support/solutions/articles/9000065590-commercial-contract-management-ccm-associate-certification">WorldCC CCM</a> ·
+    <a href="https://cloc.org/join-cloc/">CLOC</a> ·
+    <a href="https://ccpe.catalog.suffolk.edu/courses/legal-innovation-and-technology-certificate">Suffolk LIT</a> ·
+    <a href="https://www.law-school.de/international/education/bucerius-summer-programs/legal-technology-and-operations">Bucerius</a> ·
+    <a href="https://www.coursera.org/learn/legaltech">Coursera Austral</a> ·
+    <a href="https://mexico.unir.net/derecho/curso-inteligencia-artificial-sector-legal/">UNIR México</a> ·
+    <a href="https://www.centrogarrigues.com/cursos-online/inteligencia-artificial-derecho/">Centro Garrigues</a> ·
+    <a href="https://www.juridicas.unam.mx/educacion/diplomado/217-curso-de-inteligencia-artificial-aplicada-1a-2026">UNAM IIJ</a> ·
+    <a href="https://iapp.org/about/media/iapp-announces-new-initiatives-ai-legal-services">IAPP · IA en servicios legales</a> ·
+    <a href="https://iapp.org/ai-legal">IAPP AISL</a> ·
+    <a href="https://www.clio.com/resources/ai-for-lawyers/legal-ai-emerging-certification/">Clio Legal AI Emerging Certification</a> ·
+    <a href="https://www.unesco.org/en/articles/unesco-and-university-oxford-launch-free-global-course-ai-and-rule-law">UNESCO y Oxford</a> ·
+    <a href="https://web.icam.es/el-icam-y-el-colegio-de-abogados-de-mexico-impulsaran-su-colaboracion-en-inteligencia-artificial-juridica/">ICAM e INCAM</a> ·
+    <a href="https://web.icam.es/el-icam-presenta-la-primera-guia-de-buenas-practicas-para-el-uso-de-la-inteligencia-artificial-en-la-abogacia/">Guía del ICAM</a> ·
+    <a href="https://www.diarioconstitucional.cl/2026/07/22/colegio-de-abogados-publica-guia-para-el-uso-de-inteligencia-artificial-en-el-ejercicio-profesional/">Guía del Colegio de Abogados de Chile</a> ·
+    <a href="https://www.cpacf.org.ar/uploads/files/com/11072515_Gu%C3%ADaparaelusodeInteligenciaArtificialparaAbogados.pdf">Guía del CPACF</a> ·
+    <a href="https://www.lawnext.com/2024/07/in-first-ethics-ruling-on-gen-ai-aba-says-lawyers-must-have-reasonable-understanding-of-the-technology-but-need-not-become-experts.html">ABA Formal Opinion 512</a> ·
+    <a href="https://secihti.mx/sala-de-prensa/presentan-declaracion-de-etica-y-buenas-practicas-para-el-uso-y-desarrollo-de-la-ia-en-mexico-secihti-y-atdt/">Principios de Chapultepec</a> ·
+    <a href="https://www.portal.atdt.gob.mx/wp-content/uploads/2026/06/Plan-Nacional-de-IA.pdf">Plan Nacional de IA</a> ·
+    <a href="https://www.diputados.gob.mx/LeyesBiblio/ref/lft/LFT_ref54_14may26.pdf">Decreto LFT y LFDA, DOF 14-05-2026</a> ·
+    <a href="https://mley.mx/LFPDPPP/articulo/26/">LFPDPPP art. 26</a> ·
+    <a href="https://mley.mx/LFT/articulo/291-J/">LFT art. 291-J</a> ·
+    <a href="https://sjf2.scjn.gob.mx/detalle/tesis/2031639">SJF 2031639</a> ·
+    <a href="https://sjf2.scjn.gob.mx/detalle/tesis/2031640">SJF 2031640</a> ·
+    <a href="https://www.perezllorca.com/es-mx/actualidad/nota-juridica/comentario-a-la-sentencia-dictada-en-el-amparo-directo-6-2025-por-la-segunda-sala-de-la-scjn-sobre-el-registro-de-obras-generadas-por-inteligencia-artificial-2/">Amparo directo 6/2025</a> ·
+    <a href="https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260922-II-1.html">Gaceta 22-09-2026</a> ·
+    <a href="https://www.diputados.gob.mx/LeyesBiblio/iniclave/66/CD-LXVI-II-2P-091/01_minuta_091_17feb26.pdf">Minuta art. 20 Quáter LGAMVLV</a> ·
+    <a href="https://www.observatorio-ia-mexico.com/en/proceso-legislativo">Observatorio IA México</a> ·
+    <a href="https://www.mexia.gob.mx/">Centro Público de Formación en IA</a> ·
+    <a href="https://www.harvey.ai/blog/introducing-harvey-ii">Harvey II</a> ·
+    <a href="https://www.harvey.ai/blog/legal-work-orchestration">Harvey Legal Work Orchestration</a> ·
+    <a href="https://academy.harvey.ai/page/library">Biblioteca de Harvey Academy</a> ·
+    <a href="https://www.harvey.ai/blog/trusted-legal-ai-for-the-us-public-sector-harvey-achieves-tx-ramp-level-2-certification">Harvey TX-RAMP Level 2</a>
+  </p>
+</footer>
+
+</main>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- filtros ---- */
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var rows  = Array.prototype.slice.call(document.querySelectorAll('#vendorRows .row'));
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      var f = chip.getAttribute('data-f');
+      chips.forEach(function(c){ c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
+      rows.forEach(function(r){
+        var tags = r.getAttribute('data-tags') || '';
+        var show = (f === 'todos') || tags.split(' ').indexOf(f) !== -1;
+        r.classList.toggle('hidden', !show);
+      });
+    });
+  });
+
+  /* ---- checklist ---- */
+  var KEY = 'ruta-legal-engineer-v1';
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('#checklist input[type=checkbox]:not([disabled])'));
+  var total = boxes.length;
+  var pcount = document.getElementById('pcount');
+  var pbar   = document.getElementById('pbar');
+  var savedEl= document.getElementById('saved');
+  var state  = {};
+  var docRef = null;
+  var savedTimer = null;
+
+  function readLocal(){
+    try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; }
+    catch (e) { return {}; }
+  }
+  function writeLocal(){
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  function paint(){
+    var n = 0;
+    boxes.forEach(function(b){
+      var on = !!state[b.id];
+      b.checked = on;
+      b.closest('li').classList.toggle('done', on);
+      if (on) n++;
+    });
+    pcount.textContent = n + ' de ' + total;
+    pbar.style.width = (total ? (n / total * 100) : 0) + '%';
+  }
+  function flashSaved(){
+    savedEl.classList.add('on');
+    clearTimeout(savedTimer);
+    savedTimer = setTimeout(function(){ savedEl.classList.remove('on'); }, 1400);
+  }
+
+  state = readLocal();
+  paint();
+
+  boxes.forEach(function(b){
+    b.addEventListener('change', function(){
+      state[b.id] = b.checked;
+      paint();
+      writeLocal();
+      flashSaved();
+      if (docRef) { docRef.set({ items: state }).catch(function(){}); }
+    });
+  });
+
+})();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('sw.js').catch(function () {});
+  });
+}
+</script>
+</body>
+</html>
